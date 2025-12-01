@@ -1,0 +1,20 @@
+{
+  "Small Heal": {
+    "description": "Heal yourself",
+    "target": "player",
+    "type": "HEAL",
+    "base_hp": 5
+  },
+  "Attack": {
+    "description": "Attack your enemy",
+    "target": "enemy",
+    "type": "ATTACK",
+    "base_hp": 10
+  },
+  "Fireball": {
+    "description": "Launch a ball of fire at your enemy",
+    "target": "enemy",
+    "type": "MAGIC",
+    "base_hp": 15
+  }
+}
