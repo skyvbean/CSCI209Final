@@ -3,20 +3,34 @@
     "name": "Fire",
     "base_hp": 70,
     "heal_threshold": 0.40,
-    "heal_probability": 0.75
+    "heal_probability": 0.75,
+    "special_limit": 6,
 
+    "heal_base_hp": 10,
+    "attack_base_hp": 30,
+    "special_base_hp": 50
   },
   "1": {
     "name": "Water",
     "base_hp": 110,
     "heal_threshold": 0.70,
-    "heal_probability": 0.5
+    "heal_probability": 0.5,
+    "special_limit": 3,
+
+    "heal_base_hp": 40,
+    "attack_base_hp": 10,
+    "special_base_hp": 40
 
   },
   "2": {
     "name": "Grass",
     "base_hp": 130,
     "heal_threshold": 0.50,
-    "heal_probability": 0.4
+    "heal_probability": 0.4,
+    "special_limit": 4,
+
+    "heal_base_hp": 25,
+    "attack_base_hp": 25,
+    "special_base_hp": 30
   }
 }
