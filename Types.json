@@ -8,7 +8,10 @@
 
     "heal_base_hp": 10,
     "attack_base_hp": 30,
-    "special_base_hp": 50
+    "special_base_hp": 50,
+
+    "effective": "2",
+    "ineffective": "1"
   },
   "1": {
     "name": "Water",
@@ -19,7 +22,10 @@
 
     "heal_base_hp": 40,
     "attack_base_hp": 10,
-    "special_base_hp": 40
+    "special_base_hp": 40,
+
+    "effective": "0",
+    "ineffective": "2"
 
   },
   "2": {
@@ -31,6 +37,9 @@
 
     "heal_base_hp": 25,
     "attack_base_hp": 25,
-    "special_base_hp": 30
+    "special_base_hp": 30,
+    
+    "effective": "1",
+    "ineffective": "0"
   }
 }

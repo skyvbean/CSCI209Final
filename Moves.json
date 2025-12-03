@@ -1,20 +1,22 @@
 {
-  "Small Heal": {
+  "Heal": {
     "description": "Heal yourself",
     "target": "player",
-    "type": "HEAL",
-    "base_hp": 5
+    "type": "HEAL"
   },
   "Attack": {
     "description": "Attack your enemy",
     "target": "enemy",
-    "type": "ATTACK",
-    "base_hp": 10
+    "type": "ATTACK"
   },
-  "Fireball": {
-    "description": "Launch a ball of fire at your enemy",
+    "Counter-Attack": {
+    "description": "1.3 times damage IF enemy attacks this turn; MISS otherwise",
     "target": "enemy",
-    "type": "MAGIC",
-    "base_hp": 15
+    "type": "SPECIAL"
+  },
+    "Lifesteal": {
+    "description": "IF enemy has more than 60% of their HP remaining AND you have less than 30%, then heal HALF of your base hp",
+    "target": "enemy",
+    "type": "SPECIAL"
   }
 }
